@@ -1,0 +1,15 @@
+{
+  "name": "api",
+  "scripts": {
+    "start": "node ."
+  },
+  "main": "./index.js",
+  "author": {
+    "email": "gandresto@outlook.com",
+    "name": "Andres Gonzalez"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

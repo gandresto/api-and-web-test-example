@@ -1,0 +1,30 @@
+{
+  "name": "web",
+  "type": "module",
+  "main": "./index.js",
+  "author": {
+    "email": "gandresto@outlook.com",
+    "name": "Andres Gonzalez"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "classnames": "^2.3.1",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^16.14.0",
+    "react-scripts": "2.1.8"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
